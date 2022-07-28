@@ -28,7 +28,7 @@ body {
 #form input {
     width: 280px;
     background-color: #ffffff10;
-    border-bottom: 3px solid #add8e650;
+    border-bottom: 3px solid #b9b9b94d;
     transition: border-bottom .2s linear;
 }
 

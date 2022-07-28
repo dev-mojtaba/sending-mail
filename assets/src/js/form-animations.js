@@ -1,11 +1,11 @@
 /**varibles */
-const form = document.querySelector('#form'),
-    email = document.querySelector('#email'),
-    subject = document.querySelector('#subject'),
-    message = document.querySelector('#message'),
-    emailLabel = document.querySelector('#email-label'),
-    subjectLabel = document.querySelector('#subject-label'),
-    messageLabel = document.querySelector('#message-label');
+var form = document.querySelector('#form'),
+             email = document.querySelector('#email'),
+             subject = document.querySelector('#subject'),
+             message = document.querySelector('#message'),
+             emailLabel = document.querySelector('#email-label'),
+             subjectLabel = document.querySelector('#subject-label'),
+             messageLabel = document.querySelector('#message-label');
 
 
 
