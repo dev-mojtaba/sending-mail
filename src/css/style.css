@@ -1,0 +1,169 @@
+* {
+    font-family: "Roboto-Regular";
+}
+
+body {
+    background: linear-gradient(130deg, #11c1e8, #c47017, #f64f5a);
+}
+
+.form-area {
+    width: 60%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #ffffff30;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    gap: 10vh;
+    backdrop-filter: blur(50px);
+    user-select: none;
+}
+
+#form input {
+    width: 280px;
+    background-color: #ffffff10;
+    border-bottom: 3px solid #add8e650;
+    transition: border-bottom .2s linear;
+}
+
+#form label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: text;
+    transition: top .1s linear;
+}
+
+#form label.move-up {
+    top: -25px;
+    transition: top .1s linear;
+    cursor: default;
+}
+
+#form input:focus {
+    background-color: #ffffff20;
+    border-bottom: 3px solid #add8e6;
+    transition: border-bottom .2s linear;
+    outline-style: none;
+}
+
+#email {
+    padding-left: 0;
+    transition: padding-left .9s linear;
+}
+
+#email.move-right {
+    padding-left: 25px;
+    transition: padding-left .1s linear;
+}
+
+#subject.move-right {
+    padding-left: 60px;
+    transition: padding-left .1s linear;
+}
+
+#message.move-right {
+    padding-left: 73px;
+    transition: padding-left .1s linear;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#send {
+    display: flex;
+    align-items: center;
+    padding: 5px 40px;
+    gap: 10px;
+    background-color: #ff0011f8;
+    color: lightgray;
+    fill: lightgray;
+    border-radius: 5px;
+}
+
+#send:hover {
+    background-color: #ff0011;
+    color: whitesmoke;
+    fill: whitesmoke;
+}
+
+#send:disabled {
+    background-color: #cccccc;
+    color: #ababab;
+    fill: #ababab;
+}
+
+#reset {
+    display: flex;
+    align-items: center;
+    padding: 5px 40px;
+    gap: 10px;
+    background-color: #2f00fff8;
+    color: lightgray;
+    fill: lightgray;
+    border-radius: 5px;
+}
+
+#reset:hover {
+    background-color: #2f00ff;
+    color: whitesmoke;
+    fill: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+/* Media Queries (Responsive) */
+
+@media (min-width: 360px) {
+    #form input {
+        width: 200px;
+    }
+
+    .buttons {
+        gap: 4vh;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 550px) {
+    #form input {
+        width: 280px;
+    }
+
+    .buttons {
+        gap: 4vh;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 750px) {
+    .buttons {
+        gap: 10vh;
+    }
+}
+
+@media (min-width: 1000px) {
+    .buttons {
+        gap: 20vh;
+    }
+}
+
+@media (min-width: 1250px) {
+    .buttons {
+        gap: 30vh;
+    }
+}
