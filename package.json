@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev-mojtaba": "npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/output.css --watch --minify"
+    "dev-mojtaba": "npx tailwindcss -i ./assets/src/css/tailwind.css -o ./assets/src/css/output.css --watch --minify"
   },
   "author": "",
   "license": "ISC",
