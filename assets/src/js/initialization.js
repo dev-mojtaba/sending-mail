@@ -1,5 +1,5 @@
 /**variables */
-const sendBtn = document.querySelector('#send');
+var sendBtn = document.querySelector('#send');
 
 
 
